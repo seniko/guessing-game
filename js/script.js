@@ -9,7 +9,7 @@ var finished = false;
 function doGame() {
     target = Math.floor(Math.random() * 100) + 1;
     while (!finished) {
-        guessInput = + prompt("I'm thinking of a number in the range 1 to 100\n\n" +
+        guessInput = + prompt("I'm thinking of a number in the range 1 to 100\n" +
             "What is the number?", "");
         guesses++;
         finished = checkGuess();
